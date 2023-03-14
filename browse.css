@@ -1,0 +1,16 @@
+.user-tile {
+    vertical-align: top;
+}
+
+.users-tiles {
+    max-width: 90rem;
+    overflow-x: scroll;
+}
+
+.request-item {
+    cursor: pointer;
+}
+
+.presentation-photo {
+    max-width: 30rem;
+}

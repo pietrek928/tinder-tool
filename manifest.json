@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "Tinder Inspector",
+    "version": "1.0",
+    "description": "Shows more tinder data",
+    "browser_action": {
+        "default_title": "Tinder Inspector"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "tinder@inspector.xd"
+        }
+    },
+    "permissions": [
+        "storage",
+        "unlimitedStorage",
+        "webRequest",
+        "webRequestBlocking",
+        "https://tinder.com/*",
+        "https://api.gotinder.com/*"
+    ],
+    "options_ui": {
+        "page": "browse.html",
+        "browser_style": true
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
